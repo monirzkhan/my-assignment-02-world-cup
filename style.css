@@ -152,11 +152,11 @@
 .live-match {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 15px;
+    column-gap: 15px;
     margin-right: 10%;
     margin-left: 20px;
-    width: 90%;
+    width: 100%;
     margin-bottom: 5%;
 }
 
@@ -413,15 +413,16 @@ hr {
         margin-top: 5%;
     }
 
-    watch-live {
+
+    #watch-live-match {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 20px;
-        margin-right: 20%;
-        margin-left: 20px;
-        width: 100%;
+        margin-right: 0;
+        margin-left: 10%;
+        width: 50%;
         margin-bottom: 5%;
-        margin-top: 5%;
+        margin-top: 1%;
     }
 
     .transfer-match img {
@@ -469,7 +470,7 @@ hr {
         justify-content: center;
         animation: bouncing 10s ease-in .2s infinite alternate;
         margin-bottom: 10px;
-        
+
     }
 
     .banner img {
@@ -512,41 +513,13 @@ hr {
         color: white;
         transition: color 2s linear .2s, background-color 2s;
     }
-
-    .slide-nav {
-        border: none;
-        display: flex;
-        flex-direction: column;
-        background: white;
-        border-radius: 10px;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        gap: 30px;
-        padding-left: 50px;
-        margin-left: 0%;
-        margin-right: 0%;
-
-    }
-
-    .slide-nav a {
-        font-weight: 500;
-        font-size: 20px;
-        text-decoration: none;
-        color: #161616;
-        background: #FFFFFF;
-        border-radius: 10px;
-        border: 1px solid silver;
-        padding: 15px 20px;
-        text-align: center;
-    }
+    
 
     .headings-title p {
         font-size: 14px;
         font-weight: 400;
         color: white;
         padding-bottom: 10%;
-
     }
 
     .match-info {
@@ -554,17 +527,20 @@ hr {
     }
 
     .slide-nav {
-        border: 1px gainsboro;
+        border: none;
         display: flex;
         flex-direction: row;
         background: #fff;
         border-radius: 0px;
-        width: 100%;
-        margin-right: ;
+        width: 610px;
+        height: 0px;
+        gap:5px;
+        margin-top: 20px;
     }
 
     .slide-nav a {
         padding: 10px 10px;
+        border: 1px solid silver;
 
     }
 
@@ -572,6 +548,17 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
+        margin-right: 0px;
+        margin-left: 19%;
+        width: 62%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    #watch-live-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 60px;
         margin-right: 0px;
         margin-left: 19%;
         width: 62%;
@@ -608,9 +595,16 @@ hr {
                         Website:02 (upcoming-matches)-STYLE-START 
  --------------------------------------------------------------------------------------------------- */
 
-.live-match {
+.watch-live-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
     column-gap: 60px;
-    
+    margin-right: 10%;
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 5%;
+
 }
 
 .team-flags {
@@ -652,4 +646,4 @@ hr {
 /* --------------------------------------------------------------------------------------------------
                         Website:02 (upcoming-matches)-STYLE-END 
  --------------------------------------------------------------------------------------------------- */
- ******************************************************************************************************
+******************************************************************************************************
