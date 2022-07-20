@@ -66,8 +66,6 @@
     font-size: 55px;
     font-weight: 700;
     color: white;
-    
-
 }
 
 .headings-title p {
@@ -123,9 +121,6 @@
     align-items: center;
     padding: 30px;
     margin-left: 8%;
-    margin-right: ;
-
-
 }
 
 .slide-nav a {
@@ -191,7 +186,6 @@
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
 .time {
@@ -268,13 +262,23 @@
     color: red;
 
 }
+.footer{
+    text-align: center;
+}
 
 .footer-part {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
+}
+ hr{
+    border:1px solid grey;
+    width: 90%;
+    background-color: grey;
+    margin-left: 5%;
+    opacity: 30%;
+ }
 .s-icons {
     color: white;
     font-size: 20px;
