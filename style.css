@@ -513,7 +513,7 @@ hr {
         color: white;
         transition: color 2s linear .2s, background-color 2s;
     }
-    
+
 
     .headings-title p {
         font-size: 14px;
@@ -534,7 +534,7 @@ hr {
         border-radius: 0px;
         width: 610px;
         height: 0px;
-        gap:5px;
+        gap: 5px;
         margin-top: 20px;
     }
 
@@ -554,6 +554,7 @@ hr {
         margin-bottom: 5%;
         margin-top: 5%;
     }
+
     #watch-live-match {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -595,7 +596,7 @@ hr {
                         Website:02 (upcoming-matches)-STYLE-START 
  --------------------------------------------------------------------------------------------------- */
 
-.watch-live-match {
+#watch-live-match {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 15px;
